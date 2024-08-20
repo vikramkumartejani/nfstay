@@ -30,7 +30,7 @@ const ChatList = () => {
                 Candy Bosley
               </p>
               <p className="text-[16px] font-[500] leading-[20.16px] opacity-[0.6] overflow-hidden whitespace-nowrap text-ellipsis max-w-[165px]">
-                Wow, that's okay, really, where are we going on vacation?
+                Wow, that is okay, really, where are we going on vacation?
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const ChatList = () => {
                 James Aaron
               </p>
               <p className="text-[16px] font-[500] leading-[20.16px] opacity-[0.6] overflow-hidden whitespace-nowrap text-ellipsis max-w-[165px]">
-                Michele, let's go for the party
+                Michele, let is go for the party
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const ChatList = () => {
                 Adrian Jhonson
               </p>
               <p className="text-[16px] font-[500] leading-[20.16px] opacity-[0.6] overflow-hidden whitespace-nowrap text-ellipsis max-w-[165px]">
-                Wow, that's okay, really, where are we going on vacation?
+                Wow, that is okay, really, where are we going on vacation?
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ const ChatList = () => {
                 James Aaron
               </p>
               <p className="text-[16px] font-[500] leading-[20.16px] opacity-[0.6] overflow-hidden whitespace-nowrap text-ellipsis max-w-[165px]">
-                Michele, let's go for the party
+                Michele, let is go for the party
               </p>
             </div>
           </div>
@@ -124,7 +124,7 @@ const ChatList = () => {
                 Adrian Jhonson
               </p>
               <p className="text-[16px] font-[500] leading-[20.16px] opacity-[0.6] overflow-hidden whitespace-nowrap text-ellipsis max-w-[165px]">
-                Wow, that's okay, really, where are we going on vacation?
+                Wow, that is okay, really, where are we going on vacation?
               </p>
             </div>
           </div>
@@ -204,7 +204,7 @@ const Conversation = () => {
             Ok thanks for the progress update
           </p>
           <p className="text-[16px] font-[500] text-white leading-[20.16px] w-fit px-[16px] py-[14px] rounded-l-full rounded-b-full mt-[10px] bg-[#954AFC]">
-            Wow, that's okay, really, where are we going on vacation?
+            Wow, that is okay, really, where are we going on vacation?
           </p>
         </div>
         {/* Repeat this block ends */}
