@@ -4,7 +4,7 @@ import { FiSearch } from "react-icons/fi";
 
 const ChatList = () => {
   return (
-    <div className="md:w-1/3 w-full h-screen border-r border-[#0C0839] border-opacity-[0.1] px-[25px] py-[38px]">
+    <div className="md:w-1/3 w-full border-r border-[#0C0839] border-opacity-[0.1] px-2 sm:px-[25px] py-[38px]">
       <div className="relative">
         <input
           type="text"
@@ -142,7 +142,7 @@ const ChatList = () => {
 
 const Conversation = () => {
   return (
-    <div className="md:w-2/3 w-full h-screen flex flex-col text-primary-color">
+    <div className="md:w-2/3 w-full h-full flex flex-col text-primary-color">
       <div className="flex items-center justify-between pt-[32px] pb-[27px] px-[25px]">
         <div className="flex items-center gap-[16px]">
           <img
@@ -209,7 +209,7 @@ const Conversation = () => {
         </div>
         {/* Repeat this block ends */}
       </div>
-      <div className="px-[25px] pb-[30px] flex items-center bg-[#F5F5F5]">
+      <div className="px-2 sm:px-[25px] pb-[30px] flex items-center bg-[#F5F5F5]">
         <div className="relative flex-1 w-full border rounded-full bg-white">
           <span className="absolute left-[23px] top-1/2 transform -translate-y-1/2 text-[#0C0839] text-opacity-[0.4]">
             <CiFaceSmile size={27} />
@@ -231,7 +231,7 @@ const Conversation = () => {
 
 const ChatApp = () => {
   return (
-    <div className="flex h-screen md:flex-row flex-col mb-20">
+    <div className="flex md:flex-row flex-col mb-20">
       <ChatList />
       <Conversation />
     </div>
